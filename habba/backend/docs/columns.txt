@@ -1,0 +1,8 @@
+brands | id, slug, name_ar, name_en, tagline_ar, description_ar, logo_path, is_visible, sort_order, created_at, updated_at
+categories | id, slug, name_ar, name_en, description_ar, image_path, is_visible, sort_order, created_at, updated_at
+order_items | id, order_id, product_id, product_slug, product_name_ar, product_name_en, brand_name_ar, size_label, unit_price, list_price, quantity, line_total, created_at
+orders | id, order_number, customer_name, customer_phone, fulfillment_method, delivery_address, customer_note, subtotal, delivery_fee, total, status, status_updated_at, created_at, updated_at
+product_images | id, product_id, storage_path, alt_ar, is_primary, sort_order, created_at
+products | id, slug, name_ar, name_en, brand_id, category_id, description_ar, size_label, price, discount_price, concentration, fragrance_family, notes_top, notes_heart, notes_base, is_visible, is_best_seller, created_at, updated_at, effective_price, discount_percent
+profiles | id, full_name, phone, role, created_at, updated_at
+store_settings | id, whatsapp_number, contact_phone, delivery_fee, free_delivery_threshold, store_address, working_hours, orders_enabled, updated_at

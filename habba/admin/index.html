@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#F8F6F1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>لوحة إدارة هبّة | HABBA Admin</title>
+  <link rel="icon" href="assets/img/og.png" type="image/png">
+  <link rel="stylesheet" href="css/admin.css">
+</head>
+<body class="adm">
+  <div id="app" role="main"></div>
+
+  <!-- ==========================================================================
+       OFFLINE DEMO BACKEND
+       Remove this script in production. It fakes a Supabase client in
+       localStorage so the dashboard can be reviewed without a project.
+       ========================================================================== -->
+  <script src="js/supabase-mock.js"></script>
+
+  <!-- ==========================================================================
+       REAL SUPABASE CLIENT
+       Production: load supabase-js v2 from a CDN (or self-host the ESM bundle)
+       and delete js/supabase-mock.js above.
+
+       <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+       ========================================================================== -->
+
+  <script src="config.js"></script>
+  <script src="js/db.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
